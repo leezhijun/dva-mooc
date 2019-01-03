@@ -1,12 +1,13 @@
 import React from 'react';
 import { connect } from 'dva';
 import { Button } from 'antd-mobile';
+import { Link } from 'dva/router'
 import styles from './IndexPage.css';
 
 function IndexPage() {
   return (
     <div className={styles.normal}>
-    <Button>default</Button>
+    <Link to='/login'>default</Link>
     </div>
   );
 }
