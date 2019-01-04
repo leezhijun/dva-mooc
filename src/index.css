@@ -1,5 +1,15 @@
 
 html, body, :global(#root) {
   height: 100%;
+  background-color: #fefefe;
 }
-
+:global(.logo){
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+:global(.logo img){
+  width: 100%;
+}
